@@ -1,0 +1,133 @@
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.button:hover{
+    background-color: blue;
+    transition-duration: 0.3s;
+}
+.button{
+    width: 200px;
+    height: 200px;
+    margin-left: 47px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.hover{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+}
+.link:active{
+color: blue;
+}
+.link{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.active{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+    
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+.linkk:link{
+color: red;
+}
+.linkk:visited{
+    color: green;
+}
+.lin{
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    border: solid 2px black;
+}
+.linkk{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.autofill{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+input:autofill {
+    border: 3px solid blue;
+  }
+.auto{
+    margin-left: 50px;
+}
+
+.first-child{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+}
+.first-child p:first-child{
+    color: rgb(32, 214, 22);
+}
+.nope:disabled{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: azure;
+}
+.disabled{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+}
+.yes{
+    width: 100px;
+    height: 100px;
+}
+.pp{
+    font-size: 40px;
+}
+.firstOfType p:first-of-type{
+    border: 2px solid red;
+}
+.firstOfType{
+    border: solid black 2px;
+}
+.focus:focus{
+    background-color: blue;
+    color: azure;
+}
+.focuss{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+}
+.fir:first-letter{
+    font-size: 30px;
+    color: greenyellow;
+    
+}
+.firstletter{
+    border: 2px solid black;
+}
+.inrange:in-range{
+    background-color: purple;
+}
+.inrange{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+}
+.invalid:invalid{
+    background-color: red;
+}
+.invalid{
+    border: black 2px solid;
+}
+
+
